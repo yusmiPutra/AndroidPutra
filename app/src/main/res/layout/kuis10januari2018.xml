@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.putra.mobile.implicitintent.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        android:text="Kuis 10 Januari"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="PHD" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="MCDONALD" />
+
+    <Button
+        android:id="@+id/btnGithub"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Muslim.or.od" />
+
+    <Button
+        android:id="@+id/btnKfc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="CAMERA" />
+
+</LinearLayout>
